@@ -1,0 +1,43 @@
+{
+  "name": "concoct-copy",
+  "version": "0.0.1",
+  "description": "A static files copier for ConcoctJS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "DEBUG=\"concoct:* -concoct:debug\" mocha -R spec ./test/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EyalAr/ConcoctJS-Copy.git"
+  },
+  "keywords": [
+    "concoctjs",
+    "concoct",
+    "plugin",
+    "template",
+    "compiler",
+    "content",
+    "context",
+    "load",
+    "buffer",
+    "save",
+    "path",
+    "static",
+    "copy"
+  ],
+  "author": "Eyal Arubas <eyalarubas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EyalAr/ConcoctJS-Copy/issues"
+  },
+  "homepage": "https://github.com/EyalAr/ConcoctJS-Copy",
+  "dependencies": {
+    "ncp": "^0.5.1"
+  },
+  "devDependencies": {
+    "should": "~3.3.0",
+    "mocha": "~1.18.2",
+    "concoct": "0.0.3",
+    "rimraf": "^2.2.6"
+  }
+}
